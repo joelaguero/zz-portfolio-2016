@@ -11,7 +11,7 @@ $('#email').click(function() {
 });
 
 $('#twitter').click(function() {
-	window.location = 'http://www.twitter.com/joelaguero';
+	window.open('http://www.twitter.com/joelaguero', '_blank');
 });
 
 $('#card1').click(function() {
