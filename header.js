@@ -7,7 +7,7 @@ $('#resume').click(function() {
 });
 
 $('#email').click(function() {
-	window.location = 'mailto:hello@joelaguero.com';
+	window.open('mailto:hello@joelaguero.com', '_blank');
 });
 
 $('#twitter').click(function() {
