@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+	<title>Joel Aguero</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="navigation">
+		<div id="home-button">
+			<div>
+				JOEL AGUERO
+			</div>
+		</div>
+		<div class="square-button" id="resume">
+			<img src="http://marshalkowski.com/img/icon_resume.gif"/>
+		</div>
+		<div class="square-button" id="email">
+			<img src="http://www.iconsdb.com/icons/preview/white/email-12-xxl.png"/>
+		</div>
+		<div class="square-button center" id="twitter">
+			<img src="https://g.twimg.com/Twitter_logo_white.png"/>
+		</div>
+	</div>
+	<div class="project">
+		<div id="wrapper">
+	        <div class="slider-wrapper theme-default">
+	            <div class="slider" class="nivoSlider">
+	                <img src="images/yelp/w1.jpg" data-thumb="images/yelp/w1.jpg" alt="" title="Wireframes to establish layout and spacing" />
+	                <img src="images/yelp/w2.jpg" data-thumb="images/yelp/w2.jpg" alt="" title="Expanded version of a list, upon click" />
+	            </div>
+	        </div>
+	        <div class="slider-wrapper theme-default">
+	            <div class="slider" class="nivoSlider">
+	                <img src="images/yelp/m1.jpg" data-thumb="images/yelp/m1.jpg" alt="" title="Hi-fi mockup of the new list display" />
+	                <img src="images/yelp/m2.jpg" data-thumb="images/yelp/m2.jpg" alt="" title="Expanded view displays reviews with a prominent photo" />
+	            </div>
+	        </div>
+    	</div>
+
+    	<div id="content">
+    		<h1>YELP</h1>
+    		<p class="project-description">Yelp lists let power-users organize their reviews into customizable buckets. Inspired by tabbed-browsing and Yelp’s abundance of photos, I re-designed the feature to streamline list creation and enhance list viewing. My process included:
+    			<ul>
+    				<li>Mindmapping</li>
+    				<li>Storyboards</li>
+    				<li>Thumbnail sketches</li>
+    				<li>Lofi and hifi wireframes</li>
+    				<li>Mock-ups</li>
+    			</ul>
+    		</p>
+    		<h3>UX DESIGN</h3>
+    		<p class="project-description">I was given a very open-ended task of re-designing the list feature, so my first goal was to narrow the scope. I developed two important design principles: making the solution visual and reducing the complexity of the interaction flow. Previously, users had to click through three pages in order to view or edit a list. My re-design consolidates all lists into one page, allowing users to locate a review easily. Yelp's power users have many lists, but are often looking for specific reveiws. This makes it more possible.
+    		</p>
+    		<p class="project-description">Yelp has many photographs for listings - especially popular reviews. Using these, I designed individual review cards that display a large thumbnail. More importantly, the cards - being significantly larger than the existing design - allow the user to see a portion of their review without ever clicking to another page. This reduces the amount of friction needed to locate a precise review.</p>
+    		<h3>VISUAL DESIGN</h3>
+    		<p class="project-description">I created the hi-fidelity mock-ups using Photoshop and a template provided by Yelp. It was important that any modifications conform to Yelp's existing aesthetic.
+    		</p>
+    	</div>
+	</div>
+	
+	<!-- Javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="header.js"></script>
+	<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+	    $(window).load(function() {
+	        $('.slider').nivoSlider({
+            effect: 'fade',
+            pauseTime: 6000,
+            controlNav: true,
+            directionNav: true,
+            prevText: '<',
+            nextText: '>'
+       		});
+	    });
+    </script>
+</body>
+</html>

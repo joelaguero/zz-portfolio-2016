@@ -1,0 +1,32 @@
+.project {
+	margin-top: 70px;
+}
+
+.project-description {
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 60%;
+	float: right;
+	padding-right: 10px;
+}
+
+#motion-wrapper {
+	text-align: center;
+	padding-left: 10px;
+}
+
+#motion-content {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	min-width: 640px;
+	max-width: 1280px;
+}
+
+#content {
+	width: 30%;
+	padding-left: 10px;
+}

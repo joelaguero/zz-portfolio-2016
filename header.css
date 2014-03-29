@@ -1,0 +1,104 @@
+body {
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0px;
+	background-color: white;
+}
+
+#resume img {
+	width: 20px;
+	position: relative;
+	top: 14px;
+	left: 1px;
+}
+
+#email img {
+	width: 20px;
+	position: relative;
+	top: 15px;
+	left: 1px;
+}
+
+#twitter img {
+	width: 20px;
+	position: relative;
+	top: 17px;
+	left: 1px;
+}
+
+#quote {
+	display: inline-block;
+	float: right;
+	background-color: white;
+	color: darkgrey;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-style: italic;
+	height: 50px;
+	width: 600px;
+	text-align: right;
+}
+
+#twitter:hover {
+	opacity: .8;
+}
+
+#resume:hover {
+	opacity: .8;
+}
+
+#email:hover {
+	opacity: .8;
+}
+
+.square-button {
+	position: relative;
+	top: -4px;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+#resume {
+	left: -4px;
+}
+
+#email {
+	left: -8px;
+}
+
+#twitter {
+	left: -12px;
+	top: -8px;
+}
+
+#home-button {
+	height: 50px;
+	background-color: black;
+	width: 150px;
+	opacity: .9;
+	display: inline-block;
+}
+
+#home-button div {
+	position: relative;
+	top: 6px;
+	padding: 10px 10px 10px 15px;
+	color: white;
+	font-weight: bold;
+}
+
+#home-button:hover {
+	opacity: .8;
+}
+
+#navigation {
+	background-color: black;
+	width: 101%;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
