@@ -1,3 +1,14 @@
+#instructions {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: gray;
+	color: white;
+	position: relative;
+	top: -14px;
+}
+
 ul li {
 	font-weight: lighter;
 	font-size: 16px;
@@ -32,6 +43,16 @@ h1 {
 	margin-top: 64px;
 	position: relative;
 	left: 0px;
+}
+
+#container div {
+	-webkit-filter: brightness(50%);
+	
+}
+
+#container div .card-title-block {
+	-webkit-filter: brightness(100%);
+
 }
 
 #card1 {
