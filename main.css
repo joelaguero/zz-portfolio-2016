@@ -45,25 +45,25 @@ h1 {
 }
 
 #card1 {
-	background-image: url('http://imgur.com/ZTf5bED.png');
-	background-position: bottom;
+	background-image: url('images/sproose-card.jpg');
+	background-position: left;
 }
 
 #card2 {
-	background-image: url('http://25.media.tumblr.com/ba2396b0dc7a2a096ef1a1f0961a8d76/tumblr_mwyrr0CH9s1ry1xj2o2_1280.jpg');
+	background-image: url('images/gogroup-card.jpg');
 	background-position: center;
 
 }
 
 #card3 {
-	background-image: url('http://i.imgur.com/4c456xw.png');
+	background-image: url('images/yelp-card.jpg');
 	background-position: right;
 
 }
 
 #card4 {
-	background-image: url('images/planit.jpg');
-	background-position: bottom;
+	background-image: url('images/planit-card.jpg');
+	background-position: left;
 }
 
 .card:hover .card-title-block {
