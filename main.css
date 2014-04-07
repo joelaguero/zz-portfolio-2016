@@ -71,16 +71,17 @@ h1 {
 }
 
 .card-title-block {
-	color: white;
+	color: #7c7c7c;
 	font-size: 80%;
 	width: 100%;
-	background-color: #7c7c7c;
+	background-color: white;
 	opacity: 0;
 	-webkit-transition: all .5s ease;
   	-moz-transition: all .5s ease;
   	-ms-transition: all .5s ease;
   	-o-transition: all .5s ease;
   	transition: all .5s ease;
+  	border-bottom: 1px solid #7c7c7c;
 }
 
 .card-title-title {
