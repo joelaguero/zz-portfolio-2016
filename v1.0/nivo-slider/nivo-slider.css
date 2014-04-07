@@ -65,7 +65,7 @@
 	position:absolute;
 	left:0px;
 	bottom:0px;
-	background:#7c7c7c;
+	background:#000;
 	color:#fff;
 	width:100%;
 	z-index:8;
@@ -105,12 +105,12 @@
 	text-align: center;
 	margin-left: 10px;
 	left:0px;
-	background-color: #7c7c7c;
+	background-color: black;
 	color: white;
 	padding: 5px;
 	border-radius: 20px;
 	font-size: 15px;
-	opacity: .5;
+	opacity: .3;
 	height: 20px;
 	width: 20px;
 }
@@ -118,12 +118,12 @@
 	text-align: center;
 	margin-right: 10px;
 	right:0px;
-	background-color: #7c7c7c;
+	background-color: black;
 	color: white;
 	padding: 5px;
 	border-radius: 20px;
 	font-size: 15px;
-	opacity: .5;
+	opacity: .2;
 	height: 20px;
 	width: 20px;
 }
@@ -137,9 +137,9 @@
 .nivo-controlNav a {
 	cursor:pointer;
 	padding-left: 5px;
-	color: #cecece;
+	color: lightgray;
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
-	color: #7c7c7c;
+	color: grey;
 }

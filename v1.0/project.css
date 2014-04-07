@@ -1,16 +1,16 @@
 .project {
-	padding: 0% 2% 2% 2%;
-	color: #7c7c7c;
+	margin-top: 70px;
 }
 
 .project-description {
 	font-weight: lighter;
-	font-size: .9em;
+	font-size: 16px;
 }
 
 #wrapper {
-	width: 65%;
+	width: 60%;
 	float: right;
+	padding-right: 10px;
 }
 
 #motion-wrapper {
@@ -28,4 +28,5 @@
 
 #content {
 	width: 30%;
+	padding-left: 10px;
 }
