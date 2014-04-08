@@ -64,6 +64,17 @@ h1 {
 		background-image: url('images/planit-card.jpg');
 		background-position: left;
 	}
+	
+	#card5 {
+		background-image: url('images/kollective-card.png');
+		background-position: top;
+		background-size: 125%;
+	}
+
+	#card6 {
+		background-image: url('images/planit-card.jpg');
+		background-position: top;
+	}
 
 	/* Project card titles and animations */
 
