@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+	<title>Joel Aguero</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="navigation">
+		<div id="home-button">
+			<div>
+				JOEL AGUERO
+			</div>
+		</div>
+		<div class="square-button center" id="twitter">
+			<img src="images/header/twitter.png"/>
+		</div>
+		<div class="square-button center" id="email">
+			<img src="images/header/email.png"/>
+		</div>
+		<div class="square-button center" id="resume">
+			<img src="images/header/resume.png"/>
+		</div>
+<!-- 		<div id="header-description">
+			Design
+		</div> -->
+	</div>
+	<div class="project">
+		<div id="wrapper">
+	        <div class="slider-wrapper theme-default">
+	            <div class="slider" class="nivoSlider">
+	                <img src="images/coursera/coursera-original.jpg" data-thumb="images/coursera/coursera-original.jpg" alt="" title="Coursera's original homepage" />
+	                <img src="images/coursera/coursera-redesign.jpg" data-thumb="images/coursera/coursera-redesign.jpg" alt="" title="My take on Coursera's homepage" />
+	                <img src="images/coursera/coursera-zoom.jpg" data-thumb="images/coursera/coursera-zoom.jpg" alt="" title="Close-up of my redesign" />
+	            </div>
+	        </div>
+    	</div>
+
+    	<div id="content">
+    		<h1>COURSERA</h1>
+    		<p class="project-description">Re-designing Coursera's homepage was a fun side-project. I have a strong interest in online education and wondered what Coursera would like with a "live-ticker" showing what people are learning, online, right now.
+    		</p>
+    		<h3>DESIGN PRINCIPLES</h3>
+    		<p class="project-description">I selected a few design principles to emphasize in my re-design:
+    			<ul>
+    				<li>Breathing room</li>
+    				<li>Aesthetic consistentcy</li>
+    				<li>Communicate value</li>
+    			</ul>
+    		</p>
+    		<p class="project-description">I liked the way Coursera showed how many people are on their website and found myself wondering <strong>what</strong> people are learning as well. Including some examples of what type of content users are engaging with right now communicates Coursera's value to first-time visitors.</p>
+    		<p class="project-description">Breathing room simply involved expanding the main banner on the homepage and complemented my second design principle of aesthetic consistency. This inspired a sleek, clear interface that prevents users from feeling cluttered or overwhelmed. Finally, I revamped the search bar so users can quickly discover new content.
+    		</p>
+    	</div>
+	</div>
+	
+	<!-- Javascript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="header.js"></script>
+	<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+	    $(window).load(function() {
+	        $('.slider').nivoSlider({
+            effect: 'fade',
+            pauseTime: 6000,
+            controlNav: true,
+            directionNav: true,
+            prevText: '<',
+            nextText: '>'
+       		});
+	    });
+    </script>
+</body>
+</html>
