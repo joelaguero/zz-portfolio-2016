@@ -3,7 +3,7 @@ $('#home-button').click(function() {
 });
 
 $('#resume').click(function() {
-	window.location = 'joel-aguero-resume-0214.pdf';
+	window.location = 'joel-aguero-resume-0814.pdf';
 });
 
 $('#email').click(function() {
