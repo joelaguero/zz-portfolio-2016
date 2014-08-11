@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>Joel Aguero - Digital Designer</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div id="main">
+		<div id="welcome">
+			<div id="hello">
+				<h1>Hi, I'm Joel</h1>
+				<p>I design digital products in San Francisco, grew up in Northern California, and studied Product Design at Stanford.</p>
+
+				<div id="social">
+					<a href="http://twitter.com/joelaguero">Twitter</a> &middot; <a href="http://linkedin.com/in/joelaguero">LinkedIn</a> &middot; <a href="joel-aguero-resume-0814.pdf">Resume</a> &middot; <a href="mailto:hello@joelaguero.com">Contact</a>
+				</div>
+			</div>
+			<img id="me" src="images/me.jpg" />
+		</div>
+		<div class="backAndForth" id="scroll-down">
+			PROJECTS<br>
+			<img src="images/down-arrow.png"/>
+		</div>
+		
+	</div>
+	<div style="width:100%;height:60px;">
+		<div id="header" class="header">
+   			<nav id="nav">
+       			<ul class="nav navbar-nav">
+          			<li id="up-arrow">
+          				<a href="#main"><img src="images/up-arrow.png" /></a>
+          			</li>
+          			<li>
+             			<a href="#nextdoor"><img id="nextdoor-logo" src="images/nextdoor-logo.png"/></a>
+           			</li>
+           			<li>
+             			<a href="#thryft"><img id="thryft-logo" src="images/thryft-logo.png" /></a>
+           			</li>
+           			<li>
+             			<a href="#sproose"><img id="sproose-logo" src="images/sproose-logo.png" /></a>
+           			</li>
+           			<li id="motion-link">
+             			<a href="#motion"><img src="images/motion-icon.png" />MOTION&nbsp;</a>
+           			</li>
+       			</ul>
+   			</nav>
+		</div>
+	</div>
+
+	<div id="nextdoor" class="scrollto">
+		<div class="project-summary">
+			<div class="summary-text">
+				<h1>Nextdoor Smartlinks</h1>
+				<p class="duration">
+					2014 JUNE - JULY
+				</p>
+				<p class="description">
+					I was the lead designer on the smartlinks project and led key functionality and design conversations. With this feature, we wanted to increase user engagement with posts that contained links by rendering visually-compelling previews.
+				</p>
+				<a class="transition view-project-link btn btn-default" href="nextdoor-smartlinks.html">View Project</a>
+			</div>
+			<img id="nextdoor-primary" src="images/nextdoor-primary.png" />
+		</div>
+	</div>
+
+	<div id="thryft" class="scrollto">
+		<div class="project-summary">
+			<div class="summary-text">
+				<h1>Thryft</h1>
+				<p class="duration">
+					2014 JUNE - PRESENT
+				</p>
+				<p class="description">
+					Thryft is a side project I've been working on for a few months. Our small team of two engineers and one designer (me) want to help individuals see untapped opportunity in the many objects they own, but don't use. 
+				</p>
+				<a class="transition view-project-link btn btn-default" href="thryft.html">View Project</a>
+			</div>
+			<img id="nextdoor-primary" src="images/thryft-primary.png" />
+		</div>
+	</div>
+
+	<div id="sproose" class="scrollto">
+		<div class="project-summary">
+			<img id="sproose-primary" src="images/sproose-primary.png" />
+			<div class="summary-text">
+				<h1>Sproose</h1>
+				<p class="duration">
+					2014 JAN - JUNE
+				</p>
+				<p class="description">
+					I designed the end-to-end user experiences for an early-stage eCommerce app. My work helped the co-founders apply to leading incubators like TechStars and Y Combinator. 
+				</p>
+				<a class="transition view-project-link btn btn-default" href="sproose.html">View Project</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="motion" class="scrollto">
+		<div class="project-summary">
+			<img id="motion-primary" src="images/motion-primary.png" />
+			<div class="summary-text">
+				<h1>Motion Projects</h1>
+				<p class="duration">
+					2013 JAN - PRESENT
+				</p>
+				<p class="description">
+					This is a collection of various animation projects I've worked on over the past couple of years. Many follow directly from user research or product concepts. 
+				</p>
+				<a class="transition view-project-link btn btn-default" href="motion.html">View Projects</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Load Javascript -->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stickyNavbar.min.js"></script>
+	<script type="text/javascript" src="js/share.min.js"></script>
+
+	<!-- stickNavbar -->
+	<script>
+		$(function () {
+			$('.header').stickyNavbar({
+					animateCSS: false, startAt: -60,
+			});
+		});
+	</script>
+
+	<!-- Page Transitions -->
+	<script type="text/javascript" src="js/page-transition.js"></script>
+</body>
+</html>

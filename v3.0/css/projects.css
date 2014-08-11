@@ -1,0 +1,14 @@
+.back-button {
+	padding: 20px;
+	position: relative;
+}
+
+.back-arrow {
+	height: 35px;
+	opacity: .3;
+	float:left;
+
+	transform: rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
