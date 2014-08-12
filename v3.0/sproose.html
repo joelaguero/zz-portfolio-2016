@@ -4,30 +4,16 @@
 <head>
 	<title>Joel Aguero</title>
 
-	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
 </head>
 <body>
-	<div id="navigation">
-		<div id="home-button">
-			<div>
-				JOEL AGUERO
-			</div>
-		</div>
-		<div class="square-button center" id="twitter">
-			<img src="images/header/twitter.png"/>
-		</div>
-		<div class="square-button center" id="email">
-			<img src="images/header/email.png"/>
-		</div>
-		<div class="square-button center" id="resume">
-			<img src="images/header/resume.png"/>
-		</div>
-<!-- 		<div id="header-description">
-			Design
-		</div> -->
+	<div class="back-button horizontalBackAndForth">
+		<a href="index.html#sproose"><img class="back-arrow" src="images/up-arrow.png" /></a>
 	</div>
 	<div class="project">
 		<div id="wrapper">
@@ -82,9 +68,11 @@
 	</div>
 	
 	<!-- Javascript -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="header.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/page-transition.js"></script>
 	<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+
+	<!-- Nivo Slider -->
     <script type="text/javascript">
 	    $(window).load(function() {
 	        $('.slider').nivoSlider({
@@ -96,6 +84,9 @@
             nextText: '>'
        		});
 	    });
+
+    	
     </script>
+
 </body>
 </html>
