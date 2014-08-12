@@ -91,6 +91,16 @@
     display:none;
 }
 /* Direction nav styles (e.g. Next & Prev) */
+
+div.nivo-directionNav {
+	display: none;
+}
+
+div.slider-wrapper.theme-default:hover div.nivo-directionNav {
+	display: block;
+
+}
+
 .nivo-directionNav a {
 	position:absolute;
 	top:45%;

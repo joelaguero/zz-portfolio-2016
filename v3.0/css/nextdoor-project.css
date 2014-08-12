@@ -1,0 +1,65 @@
+.back-button {
+	margin: 20px;
+	position: relative;
+	height: 35px;
+}
+
+.back-arrow {
+	height: 35px;
+	opacity: .3;
+	float:left;
+
+	transform: rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+
+	@-webkit-keyframes horizontalBackAndForth { 
+	    0%, 100% {-webkit-transform: translateX(0);} 
+	    50% {-webkit-transform: translateX(-5px);} 
+	} 
+	  
+	@keyframes horizontalBackAndForth { 
+	    0%, 100% {transform: translateX(0);} 
+	    50% {transform: translateX(-5px);} 
+	} 
+	  
+	.horizontalBackAndForth { 
+	    -webkit-animation-name: horizontalBackAndForth; 
+	    -webkit-animation-duration: 4s;
+	    -webkit-animation-timing-function: ease-in-out;
+	    -webkit-animation-iteration-count: infinite;
+
+	    animation-name: backAndForth;
+	    animation-duration: 4s; 
+	    animation-timing-function: ease-in-out;
+	    animation-iteration-count: infinite;
+	}
+
+/* PROJECT PAGE STYLING */
+
+/* Project container */
+
+.project {
+	margin: 0px 30px 30px 30px;
+	padding: 0;
+}
+
+.project h1 {
+	padding-top:0px;
+	margin-top: 0px;
+}
+
+/* Formatting for project description */
+.project-description {
+}
+
+/* Slideshow wrapper */
+#wrapper {
+	width: 100%;
+}
+
+/* Text/written content wrapper */
+#content {
+	width: 100%;
+}
