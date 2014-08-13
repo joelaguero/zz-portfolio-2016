@@ -57,12 +57,12 @@
 
 /* Slideshow wrapper */
 #wrapper {
-	width: 50%;
+	width: 65%;
 	float:right;
 }
 
 /* Text/written content wrapper */
 #content {
-	width: 40%;
+	width: 25%;
 	margin-left: 5%;
 }
