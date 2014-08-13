@@ -4,6 +4,8 @@ html, body {
 	height: 100%;
 	margin: 0;
 	min-width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 a {
@@ -29,7 +31,6 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 
 	.theme-default {
-		max-width: 400px !important;
 		float:right;
 	}
 
