@@ -202,6 +202,8 @@ and (min-width : 321px) {
 		right: 0;
 
 		margin: auto;
+
+		min-width: 780px;
 	}
 
 	div#hello {
