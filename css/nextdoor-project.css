@@ -4,6 +4,9 @@
 	margin: 20px;
 	position: relative;
 	height: 35px;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .back-arrow {
@@ -77,6 +80,11 @@
 	letter-spacing: .50px;
 }
 
+.project-description .section-heading {
+	padding: 0px;
+	margin: 20px 0px 5px 0px;
+}
+
 .project-description h1 {
 	margin-top: 50px;
 	text-align: center;
@@ -97,6 +105,11 @@
 	width: 100%;
 	text-align: center;
 	padding: 10px;
+}
+
+.wrapper-caption {
+	font-style: italic;
+	font-size: 14px;
 }
 
 /* Text/written content wrapper */
