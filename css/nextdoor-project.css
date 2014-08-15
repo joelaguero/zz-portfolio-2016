@@ -1,3 +1,5 @@
+
+
 .back-button {
 	margin: 20px;
 	position: relative;
@@ -39,10 +41,23 @@
 /* PROJECT PAGE STYLING */
 
 /* Project container */
+.mobile-screenshot {
+	width: 320px !important;
+	float: none;
+    display: inline-block;
+    margin: 30px;
+}
 
 .project {
 	margin: 0px 30px 30px 30px;
+	min-width: 1024px;
 	padding: 0;
+}
+
+.double {
+	width: 50%;
+	float: left;
+	display: inline;
 }
 
 .project h1 {
@@ -50,16 +65,43 @@
 	margin-top: 0px;
 }
 
+
 /* Formatting for project description */
 .project-description {
+	font-size: 18px;
+	line-height: 1.5;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+	letter-spacing: .50px;
+}
+
+.project-description h1 {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.project-description h3 {
+	margin-top: 10px;
+}
+
+.project-description .duration {
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 /* Slideshow wrapper */
 #wrapper {
 	width: 100%;
+	text-align: center;
+	padding: 10px;
 }
 
 /* Text/written content wrapper */
 #content {
-	width: 100%;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
