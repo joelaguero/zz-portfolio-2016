@@ -218,7 +218,6 @@ and (min-width : 321px) {
 	}
 
 	img#me {
-		height: 60%;
 		margin-top: -40px;
 		margin-left: 50px;
 		border-radius: 999px;
