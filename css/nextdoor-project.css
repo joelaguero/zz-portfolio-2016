@@ -107,6 +107,9 @@
 	padding: 10px;
 }
 
+#wrapper iframe {
+	margin: 30px;
+}
 .wrapper-caption {
 	font-style: italic;
 	font-size: 14px;
