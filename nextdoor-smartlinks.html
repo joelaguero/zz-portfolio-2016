@@ -24,7 +24,7 @@
                 <h1>Nextdoor</h1>
                 <p class="duration" >2014 JUNE - PRESENT</p>
 
-                <p>In my first 3 weeks at Nextdoor, I worked with four engineers and one product manager to launch automatic link previews for new posts, which was rolled out platform-wide to over 40,000 U.S. neighborhoods.</p>
+                <p>In my first 3 weeks at Nextdoor, I worked with four engineers and one product manager to launch automatic link previews for new posts, which was rolled out platform-wide to over 40,000 U.S. neighborhoods on iOS, Android, and desktop. I wrote the HTML/CSS for the desktop implementation.</p>
                 <p>Since successfully completing this project, my responsibilities have expanded to include three other projects: the enhancement of our current photo upload experience, designing an entirely new type of post on iOS, Android and desktop, and introducing personability into static pages on the site.</p>
 
         		<p>A few tools I've relied on thus far:
@@ -67,13 +67,17 @@
                 </p>
 
                 <p class="section-heading">MAKING A DECISION</p>
-                <p>When exploring this dilemma further, I discovered that this project really touched on broader questions surrounding links in general - not just those in posts. Users posted links all over Nextdoor - in events, comments, personal messages. I wanted to imagine a broader link treatment that could improve a user's experience of links in a variety of contexts.
-                </p>
+                    <p>When exploring this dilemma further, I discovered that this project really touched on broader questions surrounding links in general - not just those in posts. Users posted links all over Nextdoor - in events, comments, personal messages. I wanted to imagine a broader link treatment that could improve a user's experience of links in a variety of contexts.
+                    </p>
 
-                <div id="wrapper">
-                    <iframe width="726" height="545" src="http://www.youtube.com/embed/90iyGtVYreU?hd=1&rel=0&autohide=1&color=white&modestbranding=1&controls=0&showinfo=0" frameborder="0"></iframe>
-                    <p class="wrapper-caption">This is an interaction demo I created after being inspired by Quora's treatment of links. The solution would address posts with single links and posts with multiple links; however, it introduces a new on-hover interaction in the newsfeed.</p>
-                </div>
+                    <div id="wrapper">
+                        <iframe width="726" height="545" src="http://www.youtube.com/embed/90iyGtVYreU?hd=1&rel=0&autohide=1&color=white&modestbranding=1&controls=0&showinfo=0" frameborder="0"></iframe>
+                        <p class="wrapper-caption">This is an interaction demo I created after being inspired by Quora's treatment of links. The solution would address posts with single links and posts with multiple links; however, it introduces a new on-hover interaction in the newsfeed.</p>
+                    </div>
+
+                <p class="section-heading">TRADE-OFFS</p>
+                    <p>The above solution respected the fact that - unlike Facebook - Nextdoor's newsfeed is not filled with large, full-bleed images, videos, and selfies. It is highly utilitarian in nature and the emphasis of many posts is the text content. On the otherhand, the solution would require more engineering resources because the we would need to dynamically generate the content for the on-hover interaction.
+                    </p>
 
     		</div>
 
@@ -114,8 +118,8 @@
             pauseTime: 6000,
             controlNav: true,
             directionNav: true,
-            prevText: '<',
-            nextText: '>'
+            prevText: '<img src="images/left-arrow-tiny.png" />',
+            nextText: '<img src="images/right-arrow-tiny.png" />'
        		});
 	    });
 
