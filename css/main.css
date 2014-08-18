@@ -193,6 +193,7 @@ and (min-width : 321px) {
 
 	div#main div#welcome {
 		width: 75%;
+		max-width: 1000px;
 		height: 50%;
 
 		position: absolute;
