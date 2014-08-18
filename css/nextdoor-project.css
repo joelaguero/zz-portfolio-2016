@@ -41,6 +41,20 @@
 	    animation-iteration-count: infinite;
 	}
 
+.full-width {
+	width: 100%;
+}
+
+.center-text {
+	text-align:center;
+}
+
+a.bottom-back-button {
+	background-color: #ececec;
+	border: none;
+	margin-top: 60px;
+}
+
 /* PROJECT PAGE STYLING */
 
 /* Project container */
