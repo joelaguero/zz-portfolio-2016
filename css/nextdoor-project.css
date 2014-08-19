@@ -45,6 +45,10 @@
 	width: 100%;
 }
 
+.gray-border {
+	border: 1px solid #cecece;
+}
+
 .center-text {
 	text-align:center;
 }
@@ -97,7 +101,7 @@ a.bottom-back-button {
 
 .project-description .section-heading {
 	padding: 0px;
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0px 5px 0px;
 	font-size: 14px;
 	color: #AAAAAA;
 }
@@ -109,7 +113,7 @@ a.bottom-back-button {
 }
 
 .project-description h3 {
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 .project-description .duration {

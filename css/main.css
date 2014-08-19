@@ -37,7 +37,7 @@ and (min-width : 321px) {
 	/* Header */
 	div#header {
 		background-color: white;
-		min-width: 100%;
+		width: 100%;
 		height: 60px;
 		display: block;
 		font-weight: lighter;
