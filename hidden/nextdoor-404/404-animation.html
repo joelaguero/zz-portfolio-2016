@@ -10,6 +10,67 @@
     <style>
         .edgeLoad-EDGE-540193219 { visibility:hidden; }
 
+                /* Smartphones (portrait and landscape) ----------- */
+        @media screen and (max-width: 650px) and (max-height: 650px ){
+
+                .EDGE-540193219 {
+                    visibility:hidden;
+                }
+
+                #error-message {
+                    top: 15% !important;
+                }
+                div#illustration-container {
+                    background-image: none !important;
+                    background-color: #E3F1ED !important;
+                }
+
+                div#copyright {
+                    text-align: left;
+                    padding-left: 25px;
+                }
+
+                #nextdoor-logo {
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        }
+
+        @media screen and (max-width: 450px ) {
+            #nextdoor-logo {
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media screen and (max-height: 390px) {
+            #copyright {
+                visibility: hidden;
+            }
+        }
+
+        @media screen and (max-height: 650px ){
+
+                .EDGE-540193219 {
+                    visibility:hidden;
+                }
+
+                #error-message {
+                    top: 15% !important;
+                }
+                div#illustration-container {
+                    background-image: none !important;
+                    background-color: #E3F1ED !important;
+                }
+
+                div#copyright {
+                    text-align: left;
+                    padding-left: 25px;
+                }
+        }
+
         html {
         	height:100%;
         	width:100%;
@@ -57,11 +118,15 @@
         	color:#333333;
         	margin:auto;
         	position:absolute;
-        	top:35%;
+        	top:30%;
         	left:0;
         	bottom:0;
         	right:0;
         	padding: 40px;
+        }
+
+        div#illustration-container {
+            background-image:url('hills-trees-leaves.png')
         }
 
         a {
@@ -72,21 +137,30 @@
         a:hover {
         	text-decoration:underline;
         }
+
+        div#copyright {
+            color:#246242; font-size:12px; font-family: Helvetica;position:fixed; bottom:0; padding-bottom:10px; left:0; right:0;
+        }
+
+
     </style>
+
 <!--Adobe Edge Runtime End-->
 
 </head>
 <body style="height:100%;text-align:center;background-color:#E3F1ED;margin:0;padding:0;">
-	<div id="404-container" style="height:100%;width:100%;background-repeat:no-repeat;background-image:url('hills-trees-leaves.png');background-position:center bottom;background-size:50%;">
+	<div id="illustration-container" style="height:100%;width:100%;background-repeat:no-repeat;background-position:center bottom;background-size:60%;">
 		<div style="max-width:100%;max-height:100%;margin-left:auto;margin-right:auto;" id="Stage" class="EDGE-540193219">
 		</div>
 	</div>
+    <a href="https://www.nextdoor.com/"><img id="nextdoor-logo" style="position:absolute; top:0; left:0; padding: 25px;"src="images/logo.png" /></a>
+
 	<div id="error-message">
-			<h1>Sorry, the page could not be found</h1>
-			<p>The address could be incorrect or<br>the page may no longer exist.</p>
-			<a href="https://www.nextdoor.com/">Nextdoor.com</a> &nbsp; &middot; &nbsp; <a href="https://help.nextdoor.com/">Contact us</a>
+			<h1>Sorry, the page you requested cannot be found</h1>
+			<p style="max-width:420px;margin-left:auto;margin-right:auto;">The address could be incorrect or the page may no longer exist. Please <a href="https://help.nextdoor.com/customer/portal/emails/new" >contact us</a> if you believe this is an error.</p>
+			<a href="https://www.nextdoor.com/">Home</a> &nbsp; &middot; &nbsp; <a href="https://help.nextdoor.com/">Help Center</a>
 	</div>
-	<div style="color:#246242; font-size:12px; font-family: Helvetica;position:fixed; bottom:0; padding-bottom:10px; left:0; right:0;">
+	<div id="copyright" style="">
 	&copy; Nextdoor 2014
 	</div>
 </body>
