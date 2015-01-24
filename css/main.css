@@ -108,12 +108,12 @@ li#up-arrow img {
 	opacity: .7;
 }
 
-#scsroll-down a {
-	color: normal;
+#jump-to-projects a {
+	color: inherit;
 }
 
-#scroll-down a:hover {
-	color: normal;
+#jump-to-projects a:hover {
+	color: inherit;
 	cursor: pointer;
 }
 
