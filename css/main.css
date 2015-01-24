@@ -235,6 +235,10 @@ div#social a:hover {
 	padding: 15% 10% 0% 10%;
 }
 
+.project-summary img {
+	max-width: 400px;
+}
+
 .summary-text {
 	float: left;
 	max-width: 50%;
