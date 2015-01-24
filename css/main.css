@@ -109,11 +109,11 @@ li#up-arrow img {
 }
 
 #scsroll-down a {
-	color: inherit;
+	color: normal;
 }
 
 #scroll-down a:hover {
-	color: inherit;
+	color: normal;
 	cursor: pointer;
 }
 
