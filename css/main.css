@@ -108,6 +108,15 @@ li#up-arrow img {
 	opacity: .7;
 }
 
+#scsroll-down a {
+	color: inherit;
+}
+
+#scroll-down a:hover {
+	color: inherit;
+	cursor: pointer;
+}
+
 #scroll-down img {
 	width: 20px;
 	margin-bottom: 100px;
