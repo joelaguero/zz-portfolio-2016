@@ -244,10 +244,6 @@ div#social a:hover {
 	padding: 15% 10% 0% 10%;
 }
 
-.project-summary img {
-	max-width: 400px;
-}
-
 .summary-text {
 	float: left;
 	max-width: 50%;
@@ -275,7 +271,7 @@ div#social a:hover {
 }
 
 #nextdoor-primary, #thryft-primary, #sproose-primary, #motion-primary {
-	max-width: 45%;
+	max-width: 400px;
 	padding: 0%;
 	max-height: 70%;
 	float: right;	
