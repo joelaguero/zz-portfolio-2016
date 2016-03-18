@@ -1,7 +1,3 @@
-$.ajax({
-  url: 'https://medium.com/@joelaguero/',
-  dataType: 'text',
-  success: function(data) {
-    console.log(data);
-  }
-});
+jQuery.get('http://google.com', function(res){
+      console.log(res);
+    });
