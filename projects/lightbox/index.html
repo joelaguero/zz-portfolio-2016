@@ -8,7 +8,7 @@
   <body>
     <div id="container">
       <div id="lightbox">
-        <img id="lightbox-image" src="https://www.rigolna.com/siteimages/loadingBig.gif" alt="lightbox image" />
+        <img id="lightbox-image" src="http://orig13.deviantart.net/384f/f/2011/169/3/3/nyan_cat_black_white_by_10binary-d3ja800.gif" alt="lightbox image" />
         <div id="lightbox-controls">
           <button id="lightbox-navigate-previous">Previous</button>
           <button id="lightbox-navigate-next">Next</button>
@@ -28,7 +28,11 @@
       var handleLightboxDisplay = function(photos) {
         var photoIndex = 0;
         var img = document.getElementById('lightbox-image');
-        img.src = composeImgSrc(photos[photoIndex]);
+        setTimeout(function() {
+          // Add a short delay so the loading screen is noticeable.
+          // (Nyan cat wants more facetime.)
+          img.src = composeImgSrc(photos[photoIndex]);
+        }, 800);
 
         // Find the previous and next buttons.
         var previousBtn = document.getElementById('lightbox-navigate-previous');
