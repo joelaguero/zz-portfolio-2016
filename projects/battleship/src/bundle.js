@@ -20757,6 +20757,11 @@
 	      'Welcome to Battleship'
 	    ),
 	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Player 1 is blue. Player 2 is red.'
+	    ),
+	    _react2.default.createElement(
 	      'div',
 	      null,
 	      _react2.default.createElement(
